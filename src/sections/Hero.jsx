@@ -7,6 +7,8 @@ import profile1 from "../assets/profile1.jpg";
 import profile2 from "../assets/profile2.jpg";
 import QuickFacts from "./QuickFacts";
 import WhatIDo from "./WhatIdo";
+import { Link } from "react-router-dom";
+
 
 
 function Hero() {
@@ -47,9 +49,9 @@ function Hero() {
                             <p align="center" className="hero-text-p">
                                 I enjoy turning complex problems into clean, efficient, and user-friendly web experiences.
                                 <br />
-                                </p>
+                            </p>
 
-                                <p align="center" style={{ fontSize: "1rem" }}>
+                            <p align="center" style={{ fontSize: "1rem" }}>
                                 Previously at <a
                                     href="https://www.tcs.com"
                                     target="_blank"
@@ -58,8 +60,8 @@ function Hero() {
                                 >
                                     TCS
                                 </a>
-</p>
-                            
+                            </p>
+
                         </motion.div>
                         <motion.div
                             className="hero-buttons"
@@ -68,10 +70,13 @@ function Hero() {
                             transition={{ delay: 0.9, duration: 0.8 }}
                         >
 
-                            <a href="/Shruthi Pillala Resume2.pdf" target="_blank" rel="noopener noreferrer" className="hero-btn">
+                            <a href={`${process.env.PUBLIC_URL}/Resume.pdf`}
+                                target="_blank" rel="noopener noreferrer" className="hero-btn">
                                 View Resume
                             </a>
-                            <a href="/contact" className="hero-btn outline"> Contact Me</a>
+                            <Link to="/contact" className="hero-btn outline">
+                                Contact Me
+                            </Link>
                         </motion.div>
                     </div>
                     {/* <motion.div className="hero-img"
@@ -81,22 +86,22 @@ function Hero() {
                     ><img src={profile1} alt="My Picture" />
 
                     </motion.div> */}
- <div className="hero-img-wrapper">
-      <div className="img-bg-shape" />
-      <motion.img
-        src={profile1}
-        alt="Profile"
-        className="hero-img"
-        initial={{ opacity: 0, scale: 0.5, y: 100 }}
-        animate={{ opacity: 1, scale: 1, y: 0 }}
-        transition={{ duration: 1.2, ease: "easeOut" }}
-      />
-    </div>
+                    <div className="hero-img-wrapper">
+                        <div className="img-bg-shape" />
+                        <motion.img
+                            src={profile1}
+                            alt="Profile"
+                            className="hero-img"
+                            initial={{ opacity: 0, scale: 0.5, y: 100 }}
+                            animate={{ opacity: 1, scale: 1, y: 0 }}
+                            transition={{ duration: 1.2, ease: "easeOut" }}
+                        />
+                    </div>
 
                 </div>
 
             </section>
-    
+
             <WhatIDo />
             <QuickFacts />
 
