@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.334dcf8f.css",
+    "main.js": "/portfolio/static/js/main.daf44bb8.js",
+    "static/media/TCSAward.jpg": "/portfolio/static/media/TCSAward.274caade9c5e1e8769e3.jpg",
+    "static/media/Essay.jpg": "/portfolio/static/media/Essay.d9ddf9da08fdb33f4e47.jpg",
+    "static/media/CLB.jpg": "/portfolio/static/media/CLB.1617505e0294851f48cd.jpg",
+    "static/media/PaintingCompetetion.jpg": "/portfolio/static/media/PaintingCompetetion.25f7305cd9f1a67e2711.jpg",
+    "static/media/RotaryClubEssay.jpg": "/portfolio/static/media/RotaryClubEssay.c2d88d6ca22a54e495e2.jpg",
+    "static/media/CLBlogo3.png": "/portfolio/static/media/CLBlogo3.ed3f924029ea567b9f93.png",
+    "static/media/WhackAMole.png": "/portfolio/static/media/WhackAMole.5861cf30db0cdcd0feb0.png",
+    "static/media/DrumKit.png": "/portfolio/static/media/DrumKit.ae24b32b898f5fb34516.png",
+    "static/media/Paintinglogo2.png": "/portfolio/static/media/Paintinglogo2.55be9218dfb286310fb7.png",
+    "static/media/profile1.jpg": "/portfolio/static/media/profile1.535d9a29404eaa51dced.jpg",
+    "static/media/profile2.jpg": "/portfolio/static/media/profile2.ce125bbbf82a875bf515.jpg",
+    "static/media/Keeper.png": "/portfolio/static/media/Keeper.515f77757d852016107f.png",
+    "static/media/DiceChallenge.png": "/portfolio/static/media/DiceChallenge.645a2a38f299569f4a62.png",
+    "static/media/Portfolio.png": "/portfolio/static/media/Portfolio.b36003c7242cba12feb5.png",
+    "static/media/Essaylogo2.png": "/portfolio/static/media/Essaylogo2.690498d0e3e6f810564f.png",
+    "static/media/TCSlogo3.jpg": "/portfolio/static/media/TCSlogo3.59a33a0548bc72c94147.jpg",
+    "static/media/TCSlogo2.png": "/portfolio/static/media/TCSlogo2.1ec2ccd1c110c4519959.png",
+    "static/media/RotaryClublogo.png": "/portfolio/static/media/RotaryClublogo.ae0d4b3d222be7b28cb7.png",
+    "static/media/SimonGame.png": "/portfolio/static/media/SimonGame.276f2e5ba3f96720c7e0.png",
+    "index.html": "/portfolio/index.html",
+    "main.334dcf8f.css.map": "/portfolio/static/css/main.334dcf8f.css.map",
+    "main.daf44bb8.js.map": "/portfolio/static/js/main.daf44bb8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.334dcf8f.css",
+    "static/js/main.daf44bb8.js"
+  ]
+}
