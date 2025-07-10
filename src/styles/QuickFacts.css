@@ -1,0 +1,49 @@
+.quick-facts {
+  padding: 60px 40px;
+  /* background-color: white;  */
+  text-align: center;
+  
+}
+
+
+.quick-facts h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  columns: black;
+}
+
+.quick-facts h2 span {
+  color: #b462f7; /* Purple or themed */
+}
+
+.facts-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.fact-card {
+  background-color:white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 220px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 15px rgba(168, 85, 247, 0.1);
+}
+
+.fact-card:hover {
+  transform: translateY(-10px);
+  background-attachment: fixed;
+  background-color: 		#c6b9ee;
+  box-shadow: 0 0 30px rgba(168, 85, 247, 0.2);
+}
+
+.icon-box {
+  font-size: 2rem;
+  background-color:transparent ;
+  padding: 12px;
+  border-radius: 12px;
+  display: inline-block;
+  margin-bottom: 15px;
+}

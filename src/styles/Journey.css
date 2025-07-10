@@ -1,0 +1,17 @@
+.journey-subheading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 3rem 0 1.5rem;
+  color: #222;
+  text-align: center;
+  background-color: none  ;
+
+   /* font-weight: bold; */
+  /* display: inline-block; */
+  color: #de0f66;
+  background: linear-gradient(90deg, #de0f66, #9b30ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  
+}

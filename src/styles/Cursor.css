@@ -1,0 +1,13 @@
+.cursor-dot {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  background-color: #de0f66; 
+  box-shadow: 0 0 5px #f891d1;
+   transition: background-color 0.2s;
+  mix-blend-mode: multiply; 
+   opacity: 0.6; 
+}
