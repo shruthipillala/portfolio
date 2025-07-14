@@ -1,5 +1,5 @@
 .contact-links-section {
-  position: fixed;
+  /* position: fixed; */
   
   left: 0;
   bottom: 0;
@@ -72,4 +72,9 @@
   height: 100%;
   z-index: -1; /* Push behind all content */
   pointer-events: none; /* Ensure you can click content above */
+}
+@media (max-width: 768px) {
+  .contact-section {
+    padding-top: 7rem;
+  }
 }
