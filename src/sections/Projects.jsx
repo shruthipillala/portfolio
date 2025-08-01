@@ -9,15 +9,24 @@ import DrumKit  from "../assets/DrumKit.png";
 import WhackAMole from "../assets/WhackAMole.png";
 import Keeper from "../assets/Keeper.png";
 import DiceChallenge from "../assets/DiceChallenge.png";
+import AIQuoteGenerator from "../assets/AIQuoteGenerator.png";
 
 const projects = [
+    {
+    title: "AI Quote Generator",
+    description:
+      "A simple web app that generates smart quotes using Spring AI and a lightweight LLM integration.",
+    github: "https://github.com/shruthipillala/ai-quote-generator",
+    demo: "https://ai-quote-generator-aajl.onrender.com/",
+    image: AIQuoteGenerator, 
+  },
   {
     title: "Simon Challenge",
     description:
       "Built an interactive Simon Challenge game using React to test user memory through interactive color sequence matching.",
     github: "https://github.com/shruthipillala/simon-game",
     demo: "https://shruthipillala.github.io/simon-game/",
-    image: SimonGame, // Add your actual image path here
+    image: SimonGame, 
   },
   {
     title: "Past Portfolio🤪",

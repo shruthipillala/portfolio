@@ -3,7 +3,13 @@ import "../styles/Certification.css";
 import { Award, Stamp,PencilLine,FileCheck2,Library,ClipboardCheck,CheckCircle, BookOpen,BookCheck, Medal,FileBadge } from "lucide-react";
 
 const certifications = [
-  
+    {
+    icon: <Award size={28} />,
+    title: "MySQL 8.0 Database Developer Oracle Certified Professional",
+    issuer: "Oracle",
+    year: "2025",
+    link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=2C0F11F41A2F2C7F036A5145AF2E07161A7A440DAB7215EEABACEEBF15EEBFAD"
+  },
   {
     icon: <Award size={28} />,
     title: "Hands-on Cloud Computing with AWS",
