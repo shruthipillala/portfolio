@@ -9,7 +9,8 @@ This is a modern, responsive personal portfolio website built using **React.js**
 
 
 ## Repository:
- https://github.com/shruthipillala/portfolio
+[GitHub Repo]( https://github.com/shruthipillala/portfolio) 
+
 ---
 
 ## 🚀 Features
@@ -28,7 +29,7 @@ This is a modern, responsive personal portfolio website built using **React.js**
 
 - **Frontend**: React.js, HTML5, CSS3, JavaScript
 - **Design Tools**: CSS Modules, custom fonts, and gradient styling
-- **Deployment**: GitHub Pages / Netlify
+- **Deployment**: GitHub Pages
 
 ---
 📸 Screenshots
