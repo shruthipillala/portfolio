@@ -70,7 +70,7 @@ function Hero() {
                             transition={{ delay: 0.9, duration: 0.8 }}
                         >
 
-                            <a href={`${process.env.PUBLIC_URL}/Resume.pdf`}
+                            <a href={`${process.env.PUBLIC_URL}/FullStackResume.pdf`}
                                 target="_blank" rel="noopener noreferrer" className="hero-btn">
                                 View Resume
                             </a>
