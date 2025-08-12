@@ -4,7 +4,7 @@ import "../styles/styles.css";
 import { div, i, section } from "framer-motion/client";
 import { TypeAnimation } from 'react-type-animation';
 import profile1 from "../assets/profile1.jpg";
-import profile2 from "../assets/profile2.jpg";
+import profile4 from "../assets/profile4.1.jpg";
 import QuickFacts from "./QuickFacts";
 import WhatIDo from "./WhatIdo";
 import { Link } from "react-router-dom";
@@ -89,7 +89,7 @@ function Hero() {
                     <div className="hero-img-wrapper">
                         <div className="img-bg-shape" />
                         <motion.img
-                            src={profile1}
+                            src={profile4}
                             alt="Profile"
                             className="hero-img"
                             initial={{ opacity: 0, scale: 0.5, y: 100 }}

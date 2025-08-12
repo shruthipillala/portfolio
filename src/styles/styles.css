@@ -73,23 +73,7 @@ body {
     line-height: 3.33333rem;
 
 }
- /* .hero-img {
-  flex: 1;
-   /* min-width: 0px;  
-  display: flex;
-  justify-content: center;
-} 
 
-
-.hero-img img {
- width: 100%;
- max-width: 400px;
-  height: 400px;
-  object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 0 0 30px rgba(255, 76, 96, 0.5);
-  transition: transform 0.3s ease;
-}  */
   .hero-img-wrapper {
   position: relative;
   display: inline-block;
@@ -102,7 +86,7 @@ body {
   left: -30px;
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle at 30% 30%, #f9c5d1, #fbd786);
+background: radial-gradient(circle at 30% 30%, #a8edea,#636363,#de0f66);
   border-radius: 50% 40% 60% 50% / 60% 50% 40% 50%;
   z-index: 0;
   filter: blur(1px);
@@ -110,10 +94,8 @@ body {
 }
 
 .hero-img {
-  /* width: 280px; */
    max-width: 400px;
   height: 400px;
-
   object-fit: cover;
   border-radius: 50%;
   z-index: 2;
