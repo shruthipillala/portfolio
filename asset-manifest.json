@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d452b2ac.css",
-    "main.js": "/portfolio/static/js/main.39275c7b.js",
+    "main.css": "/portfolio/static/css/main.f75b8f5d.css",
+    "main.js": "/portfolio/static/js/main.19c98dd7.js",
     "static/media/TCSAward.jpg": "/portfolio/static/media/TCSAward.274caade9c5e1e8769e3.jpg",
     "static/media/Essay.jpg": "/portfolio/static/media/Essay.d9ddf9da08fdb33f4e47.jpg",
     "static/media/CLB.jpg": "/portfolio/static/media/CLB.1617505e0294851f48cd.jpg",
@@ -12,8 +12,8 @@
     "static/media/WhackAMole.png": "/portfolio/static/media/WhackAMole.5861cf30db0cdcd0feb0.png",
     "static/media/DrumKit.png": "/portfolio/static/media/DrumKit.ae24b32b898f5fb34516.png",
     "static/media/Paintinglogo2.png": "/portfolio/static/media/Paintinglogo2.55be9218dfb286310fb7.png",
+    "static/media/profile4.1.jpg": "/portfolio/static/media/profile4.1.e77950724e1911e8dcbe.jpg",
     "static/media/profile1.jpg": "/portfolio/static/media/profile1.535d9a29404eaa51dced.jpg",
-    "static/media/profile2.jpg": "/portfolio/static/media/profile2.ce125bbbf82a875bf515.jpg",
     "static/media/Keeper.png": "/portfolio/static/media/Keeper.515f77757d852016107f.png",
     "static/media/DiceChallenge.png": "/portfolio/static/media/DiceChallenge.645a2a38f299569f4a62.png",
     "static/media/Portfolio.png": "/portfolio/static/media/Portfolio.b36003c7242cba12feb5.png",
@@ -23,11 +23,11 @@
     "static/media/RotaryClublogo.png": "/portfolio/static/media/RotaryClublogo.ae0d4b3d222be7b28cb7.png",
     "static/media/SimonGame.png": "/portfolio/static/media/SimonGame.276f2e5ba3f96720c7e0.png",
     "index.html": "/portfolio/index.html",
-    "main.d452b2ac.css.map": "/portfolio/static/css/main.d452b2ac.css.map",
-    "main.39275c7b.js.map": "/portfolio/static/js/main.39275c7b.js.map"
+    "main.f75b8f5d.css.map": "/portfolio/static/css/main.f75b8f5d.css.map",
+    "main.19c98dd7.js.map": "/portfolio/static/js/main.19c98dd7.js.map"
   },
   "entrypoints": [
-    "static/css/main.d452b2ac.css",
-    "static/js/main.39275c7b.js"
+    "static/css/main.f75b8f5d.css",
+    "static/js/main.19c98dd7.js"
   ]
 }
