@@ -2,14 +2,19 @@
 // export default SkillsSection;
 
 import { useMemo } from "react";
-import {
+import { FaMicrosoft } from "react-icons/fa";
+// import { SiAmazonaws } from "react-icons/si";
+import {FaAws ,
   FaHtml5, FaCss3Alt, FaJs, FaReact, FaJava, FaGitAlt, FaGithub, FaDatabase
 } from "react-icons/fa";
 import {
   SiPostgresql, SiMysql, SiTailwindcss, SiBootstrap,
-  SiSpring, SiIntellijidea, SiPostman
+  SiSpring, SiIntellijidea, SiPostman, SiRedis, SiStripe
 } from "react-icons/si";
-import { TbBrandJavascript } from "react-icons/tb";
+
+import { RiShieldKeyholeLine, RiBroadcastLine, RiRobot2Line } from "react-icons/ri";
+import { TbApi, TbTopologyStar3 } from "react-icons/tb";
+//import { TbBrandJavascript } from "react-icons/tb";
 import { DiVisualstudio } from "react-icons/di";
 import { motion } from "framer-motion";
 import "../styles/SkillsSection.css";
@@ -75,9 +80,10 @@ const SkillsSection = () => {
         </div>
 
         <div className="skill-row">
+            <AnimatedSkillCard icon={<FaAws size={40} color="#FF9900" />} name="AWS" />
           <AnimatedSkillCard icon={<FaJava size={40} color="#f89820" />} name="Java" />
           <AnimatedSkillCard icon={<SiSpring size={40} color="#6db33f" />} name="Spring Boot" />
-          <AnimatedSkillCard icon={<FaDatabase size={40} color="#4DB33D" />} name="JPA / Hibernate" />
+          
         </div>
 
         <div className="skill-row">
@@ -96,8 +102,36 @@ const SkillsSection = () => {
         <div className="skill-row">
           <AnimatedSkillCard icon={<SiIntellijidea size={40} color="#0071C5" />} name="IntelliJ IDEA" />
           <AnimatedSkillCard icon={<DiVisualstudio size={40} color="#007ACC" />} name="VS Code" />
-          <AnimatedSkillCard icon={<TbBrandJavascript size={40} />} name="Excel" />
+          {/* <AnimatedSkillCard icon={<TbBrandJavascript size={40} />} name="Excel" /> */}
+        
+<AnimatedSkillCard icon={<FaMicrosoft size={40} color="#217346" />} name="Excel" />
+
         </div>
+
+
+{/* Cloud / AI / Payments */}
+<div className="skill-row">
+<AnimatedSkillCard icon={<FaDatabase size={40} color="#4DB33D" />} name="JPA / Hibernate" />
+
+  <AnimatedSkillCard icon={<RiRobot2Line  size={40} />} name="OpenAI API" />
+  <AnimatedSkillCard icon={<SiStripe size={40} />} name="Stripe" />
+  <AnimatedSkillCard icon={<SiRedis size={40} />} name="Redis" />
+</div>
+
+
+{/* <div className="skill-row">
+  <AnimatedSkillCard icon={<RiShieldKeyholeLine size={40} />} name="JWT / Auth" />
+  <AnimatedSkillCard icon={<TbTopologyStar3 size={40} />} name="Microservices" />
+</div> */}
+
+
+{/* <div className="skill-row">
+  <AnimatedSkillCard icon={<RiBroadcastLine size={40} />} name="WebSockets" />
+  <AnimatedSkillCard icon={<TbApi size={40} />} name="REST APIs" />
+</div> */}
+
+
+
 
       </div>
     </section>

@@ -31,7 +31,7 @@ const ConditionalFooter = () => {
   return (
     <>
 
-     <Cursor />
+     {/* <Cursor /> */}
     <ScrollToTopButton />
      
     <Router>

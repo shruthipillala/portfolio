@@ -10,8 +10,16 @@ import WhackAMole from "../assets/WhackAMole.png";
 import Keeper from "../assets/Keeper.png";
 import DiceChallenge from "../assets/DiceChallenge.png";
 import AIQuoteGenerator from "../assets/AIQuoteGenerator.png";
-
+import DevMentorAI from "../assets/DevMentorAI.png";
 const projects = [
+   {
+    title: "DevMentor AI",
+    description:
+      "An AI-powered career assistant that helps job seekers improve resumes and prepare for interviews with smart, personalized insights",
+    github: "https://github.com/shruthipillala/ai-quote-generator",
+    demo: "https://app.devmentorai.com/",
+    image: DevMentorAI, 
+  },
     {
     title: "AI Quote Generator",
     description:
