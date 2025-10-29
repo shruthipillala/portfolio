@@ -1,48 +1,37 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import "../styles/styles.css"; // reuse your main stylesheet
-import TCSlogo3 from "../assets/TCSlogo3.jpg"; // adjust path if needed
+import "../styles/styles.css";
+import TCSlogo3 from "../assets/TCSlogo3.jpg"; 
 
 const experienceData = [
   {
-    title: "Assistant System Engineer",
+    title: "Software Engineer",
     company: "Tata Consultancy Services, Hyderabad, India",
     location: "Hyderabad, India",
     duration: "May 2022 - Dec 2023",
      bgImageClass: "tcs-background",
     points: [
-      "Built responsive, adaptive UIs using HTML, CSS, JavaScript, and ReactJS, fully aligned with client requirements",
-      "Implemented RESTful APIs that reduced data retrieval time by 30%, streamlining communication between frontend and backend system",
-      "Optimized performance for 20K+ users.",
-      "Collaborated in Agile teams for requirement analysis, system design, and technical documentation; participated in code reviews and debugging.",
-      "Delivered web solutions with over 95% on-time completion, consistently meeting client expectations and project deadlines."
+      "Architected and scaled 15+ high-performance RESTful microservices for a large-scale enterprise data platform, integrating secure authentication (JWT) and optimizing throughput with Redis caching and asynchronous processing",
+"Contributed to a high-availability distributed system on AWS, leveraging Docker/Kubernetes for orchestration and proactively monitoring system health to ensure 99.9% system availability",
+"Improved data retrieval efficiency by optimizing PostgreSQL and MongoDB queries with advanced indexing techniques, boosting speed by 30% for critical data pipelines",
+"Collaborated effectively across global time zones in Agile sprints, successfully translating user requirements into executable technical tasks"
+
     ]
   },
   {
-    title: "Graduate Assistant",
+    title: "Software Developer",
     company: "Northwest Missouri State University, Maryville, Missouri",
     location: "Maryville, Missouri",
-    duration: "Jan 2025 - May 2025",
+    duration: "Aug 2024 - May 2025",
     points: [
-      "Supported teaching of Excel, financial analysis, and statement forecasting.",
-      "Clarified TVM concepts and guided use of VLOOKUP for dynamic modeling.",
-      " Clarified concepts of time value of money (TVM), including present and future value calculations, to enhance students’ understanding of financial decision-making.",
-      " Provided individualized feedback on assignments and projects to ensure accurate application of financial modeling techniques.",
-      "Led help sessions, graded assignments, and assisted in course material prep."
+      "Led the end-to-end system design and full-stack development for mission-critical academic web applications, ensuring high reliability and maintainability for hundreds of users",
+"Optimized PostgreSQL schema and refined backend business logic, achieving a 30% reduction in API response times for high-volume data retrieval through efficient indexing and caching",
+"Engineered reusable and accessible user interfaces using React.js, Tailwind CSS, and Material-UI , enhancing the user experience across all devices",
+"Drove the technical requirements process by collaborating with faculty and instructional designers, translating complex needs into concrete technical specifications"
+
     ]
   },
-  {
-    title: "Teaching Assistant",
-    company: "Northwest Missouri State University, Maryville, Missouri",
-    location: "Maryville, Missouri",
-    duration: "Aug 2024 - Dec 2024",
-    points: [
-      "Assisted students in mastering descriptive statistics, probability, and Bayes’ Theorem through real-world examples",
-      "Guided application of hypothesis testing and regression for statistical inference and modeling.",
-      "Led review sessions and interactive discussions to clarify complex topics and improve student engagement and comprehension."
-    ]
-  }
 ];
 
 const Experience = () => {
