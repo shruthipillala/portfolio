@@ -47,7 +47,7 @@ const About = () => {
           Northwest Missouri State University
         </a> with a <Link to="/about/education" className="link-no-underline">
           <b>Master's</b>
-        </Link>{" "} degree in Information Systems, where I also worked as a <Link to="/about/journey" className="name-highlight-copmany">Graduate Asistant</Link>in Financial Modelling and a <Link to="/about/experience" className="name-highlight-copmany">Teaching Asistant</Link>{" "} in Mathematics and Statistics. I loved the practical and analytical problem-solving methods I explored during my coursework and assistantship roles, and applied them to academic research and hands-on data projects throughout my studies.
+        </Link>{" "} degree in Information Systems, where I also worked as a <Link to="/about/journey" className="name-highlight-copmany">Software Developer</Link>contributing to campus-level applications and data-driven solutions. This role allowed me to apply and expand the practical and analytical problem-solving methods I developed during my coursework, translating academic concepts into real-world software projects.
       </p>
       <p className="about-description">
         Originally from <b>India</b>, I’ve lived in multiple cities, which has shaped my adaptability and openness to diverse perspectives. Outside of tech, I’m a huge fan of good food. On weekends, you’ll often find me exploring new cuisines or trying out unique local dishes, food is definitely my second love.
