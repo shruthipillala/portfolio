@@ -30,10 +30,10 @@ function Hero() {
                         >
                             <TypeAnimation
                                 sequence={[
-                                    'Frontend Developer', 1500,
-                                    'React.js Developer', 1500,
-                                    'Java Developer', 1500,
-                                    'Full Stack Developer', 2000
+                                    'Software Engineer', 1500,
+                                    'Backend Engineer (Java / Spring Boot)', 2000,
+                                    'Full Stack Engineer', 1500,
+                                    'Cloud-Native Developer', 2000
                                 ]}
                                 wrapper="span"
                                 speed={50}
@@ -70,7 +70,7 @@ function Hero() {
                             transition={{ delay: 0.9, duration: 0.8 }}
                         >
 
-                            <a href={`${process.env.PUBLIC_URL}/FullStackResume.pdf`}
+                            <a href={`${process.env.PUBLIC_URL}/Shruthi_Pillala.pdf`}
                                 target="_blank" rel="noopener noreferrer" className="hero-btn">
                                 View Resume
                             </a>

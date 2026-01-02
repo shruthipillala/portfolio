@@ -22,19 +22,12 @@ const About = () => {
         About <span>Me</span>
       </h2>
       <p className="about-intro">
-        {/* Iam Shruthi, a Full Sack Java Developer */}
-        Iam <span className="name-highlight">Shruthi</span>, a Full Stack Java Developer
+       
+        Iam <span className="name-highlight">Shruthi</span>, a Software Engineer 
       </p>
       <p className="about-subtext">
-        My most recent work stint was with <a
-          href="https://www.tcs.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="name-highlight-copmany"
-        >
-          TCS
-        </a>
-        , where I contributed to the development of scalable web applications and backend services using technologies like Java, Spring Boot, and SQL. I was part of agile teams delivering enterprise-grade solutions across diverse domains. This experience helped me strengthen my problem-solving skills, understand client requirements, and deliver robust, maintainable code.
+        I currently work at  Dematic, where I build and improve backend features that support large-scale warehouse and material handling systems. I also develop UI-to-database integrations that improve operational data tracking accuracy for daily storage and material movement workflows.
+        
         <br />
       </p>
       <p className="about-description">
@@ -47,7 +40,19 @@ const About = () => {
           Northwest Missouri State University
         </a> with a <Link to="/about/education" className="link-no-underline">
           <b>Master's</b>
-        </Link>{" "} degree in Information Systems, where I also worked as a <Link to="/about/journey" className="name-highlight-copmany">Software Developer</Link>contributing to campus-level applications and data-driven solutions. This role allowed me to apply and expand the practical and analytical problem-solving methods I developed during my coursework, translating academic concepts into real-world software projects.
+        </Link>{" "} degree in Information Systems, where I also worked as a <Link to="/about/journey" className="name-highlight-copmany">Software Engineer</Link>contributing to campus-level applications and data-driven solutions. This role allowed me to apply and expand the practical and analytical problem-solving methods I developed during my coursework, translating academic concepts into real-world software projects.
+      </p>
+      <p className="about-description">
+        Earlier, I worked at{" "}
+        <a
+          href="https://www.tcs.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="name-highlight-copmany"
+        >
+          TCS
+        </a>{" "}
+        as a Software Engineer, building Spring Boot microservices and data integration services, and optimizing performance with Redis caching, database tuning, and Dockerized deployments. I also started my industry journey there as a Software Engineer Intern, where I contributed to Spring Boot API enhancements, wrote SQL queries across multiple modules, executed test scenarios, and collaborated with the team to resolve defects and support stable deployments.
       </p>
       <p className="about-description">
         Originally from <b>India</b>, I’ve lived in multiple cities, which has shaped my adaptability and openness to diverse perspectives. Outside of tech, I’m a huge fan of good food. On weekends, you’ll often find me exploring new cuisines or trying out unique local dishes, food is definitely my second love.
